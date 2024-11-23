@@ -7,7 +7,7 @@ const developers = [
   ];
   
   const newDeveloper = {
-    name: prompt('HR: Как Вас зовут?'), 
+    name: prompt('HR: WHAT TO FUCK IS YOUR NAME MF1P'), 
     surname: prompt('HR: Какая у Вас фамилия?'), 
     age: prompt('HR: Сколько Вам лет?'), 
   };

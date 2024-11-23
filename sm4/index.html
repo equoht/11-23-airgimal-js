@@ -11,13 +11,13 @@
 </head>
 
 <body>
-  <button id="openModal">Открыть модальное окно</button>
+  <button id="openModal" onclick="OpenModal()">Открыть модальное окно</button>
 
   <!-- Модальное окно -->
   <div id="myModal" class="modal">
     <div class="modal-content">
       <!-- Кнопка для закрытия -->
-      <span class="close">×</span>
+      <span class="close" onclick ="closeModal()">×</span>
       <p>Ок, открыли, теперь закройте</p>
     </div>
   </div>
