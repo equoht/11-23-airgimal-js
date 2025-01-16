@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mango - Мебель для вашего дома</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="images/logo.jpg" alt="Mango Logo">
+            </a>
+            <nav>
+                <div class="burger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active" style="background-image: url('images/18-640x480.jpg');">
+                    <div class="slide-content">
+                        <h2>Акция на диваны!</h2>
+                        <p>Скидка 20% до конца месяца.</p>
+                        <a href="#" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('images/dlya-gostinnoy-eletoo-m.jpg');">
+                  <div class="slide-content">
+                      <h2>Специальное предложение!</h2>
+                      <p>Новые столы по сниженным ценам.</p>
+                      <a href="#" class="btn">Подробнее</a>
+                  </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+              <button class="prev-slide">&lt;</button>
+              <button class="next-slide">&gt;</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="container">
+            <h2>Каталог товаров</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="images/52bbed27ef909de635792effdce0967c.jpg" alt="Товар 1">
+                    <h3>Стул</h3>
+                    <p class="price">9990 ₽</p>
+                    <button class="btn add-to-cart">В корзину</button>
+                </div>
+                <div class="product">                    <img src="images/4f3fce8930575762469bf4d3ebb29dba.jpg" alt="Товар 2">
+                    <h3>Кресло</h3>
+                    <p class="price">15990 ₽</p>
+                    <button class="btn add-to-cart">В корзину</button>
+                </div>
+                <div class="product">
+                    <img src="images/1145545.jpg" alt="Товар 3">
+                    <h3>Стол</h3>
+                    <p class="price">24990 ₽</p>
+                    <button class="btn add-to-cart">В корзину</button>
+                </div>
+                <div class="product">
+                    <img src="images/4879873.jpg" alt="Товар 4">
+                    <h3>Диван</h3>
+                    <p class="price">49990 ₽</p>
+                    <button class="btn add-to-cart">В корзину</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>О нас</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Мы компания Mango, специализируемся на продаже качественной и стильной мебели. Наша цель - создать уют и комфорт в каждом доме.</p>
+                    <p>Мы предлагаем широкий ассортимент мебели от ведущих производителей, которые гарантируют качество и долговечность нашей продукции. Наша команда всегда готова помочь вам с выбором идеальной мебели для вашего дома.</p>
+                </div>
+                <div class="about-images">
+                    <img src="images/comfort1.jpg" alt="О нас 1">
+                    <img src="images/comfort2.jpg" alt="О нас 2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2>Ответы на вопросы</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">Как оформить заказ?</button>
+                    <div class="accordion-content">
+                        <p>Для оформления заказа выберите нужный товар и добавьте его в корзину. Затем перейдите в корзину и следуйте инструкциям.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Какие способы доставки?</button>
+                    <div class="accordion-content">
+                        <p>Мы предлагаем доставку курьером и самовывоз. Подробности уточняйте при оформлении заказа.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Как вернуть товар?</button>
+                    <div class="accordion-content">
+                        <p>Возврат товара возможен в течение 14 дней с момента покупки. Товар должен быть в надлежащем виде.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-container">
+            <a href="#" class="footer-logo">
+                <img src="images/logo.jpg" alt="Mango Logo">
+            </a>
+            <div class="contacts">
+                <p>Контакты:</p>
+                <p>Телефон: <span class="phone-number">+7 (999) 123-45-67</span></p>
+                <button class="phone-button">
+                    <img src="images/159832.png" alt="Телефон">
+                </button>
+            </div>
+        </div>
+    </footer>
+
+     <div class="modal" id="modal">
+         <div class="modal-content">
+             <span class="close-modal">&times;</span>
+             <h2>Наш номер телефона</h2>
+             <p>+7 (999) 123-45-67</p>
+             <button class="call-button">Позвонить</button>
+         </div>
+     </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
